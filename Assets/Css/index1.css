@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    scroll-padding: 2rem;
+    text-decoration: none;
+}
+
+
+/* Variables */
+
+section {
+    padding: 4rem 0 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    /* set left and right margins to "auto" */
+    width: 100%;
+    background-color: white;
+    white-space: nowrap;
+    padding-left: 30px;
+}
+
+.navbar-collapse {
+    position: relative;
+    left: 750;
+}
+
+.navbar-brand,
+.nav {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.information {
+    margin-top: 90px;
+}
+
+.my-infor {
+    width: 600px;
+    padding: 80px;
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+.my-infor h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.my-photo-img img {
+    border-radius: 1000px;
+    width: 390px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+.my-infor p {
+    font-size: 17px;
+}
+
+.my-link {
+    margin-left: -32px;
+}
+
+.my-link li {
+    margin-right: 10px;
+}
+
+.my-link li a i {
+    font-size: 40px;
+    color: black;
+}
+
+.my-link li a i:hover {
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.tech-stock {
+    margin: 0 auto;
+    /* set left and right margins to "auto" */
+    width: 70%;
+    margin-top: 0px;
+}
+
+.tech-stock p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.tech-stock ul li {
+    margin-right: 40px;
+}
+
+.tech-stock ul li i {
+    font-size: 50px;
+}
+
+.about-me-section {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    justify-content: center;
+}
+
+.about-me-section img {
+    width: 450px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.about-me {
+    width: 500px;
+    line-height: 30px;
+}
+
+.about-me b {
+    color: rgb(96, 94, 230);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.about-me h6 {
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 15px 0 15px 0;
+}
+
+.about-me p {
+    font-size: 17px;
+}
+
+.projects-section {
+    line-height: 30px;
+    margin-left: 175px;
+}
+
+.projects-section b {
+    color: rgb(96, 94, 230);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.projects-section h6 {
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 1px 0 1px 0;
+}
+
+.project {
+    display: flex;
+    margin-top: 100px;
+}
+
+.project img {
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.project-description {
+    padding: 20px;
+    width: 500px;
+}
+
+.project-description b {
+    font-size: 18px;
+}
+
+.project-description p {
+    font-size: 17px;
+}
+
+.project-description .tech-use {
+    margin: 0 auto;
+    width: 52%;
+}
+
+.project-description .tech-use li {
+    margin-right: 10px;
+}
+
+.project-description .tech-use li i {
+    font-size: 35px;
+}
+
+.show-code {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.show-code li {
+    margin-right: 50px;
+}
+
+.show-code li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.show-code li a i {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.footer .container {
+    justify-content: space-between;
+    line-height: 100px;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li {
+    margin-right: 20px;
+}
+
+.footer ul li a i {
+    font-size: 28px;
+    line-height: 18px;
+    color: white;
+}
+
+
+.footer ul li a i:hover {
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+.footer p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.contact-section {
+    margin-top: 90px;
+    margin-left: 175px;
+}
+
+.contact-section b {
+    color: rgb(96, 94, 230);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.contact-section ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-section ul li {
+    margin-right: 250px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact-section ul li a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-section ul li p {
+    font-weight: bolder;
+}
+
+.contact-section ul li div {
+    margin-left: 20px;
+    line-height: 15px;
+    padding-top: 15px;
+}
+
+.contact-section ul li i {
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 1000px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar-collapse {
+        position: relative;
+        left: 0;
+    }
+
+    .navbar-brand,
+    .nav {
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        margin-left: -20px;
+    }
+
+    .my-infor {
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .my-infor h1 {
+        font-size: 50px;
+    }
+
+    .my-link {
+        justify-content: center;
+    }
+
+    .my-photo-img {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .tech-stock {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .tech-stock p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .tech-stock ul li {
+        margin-right: 30px;
+    }
+
+    .tech-stock ul li i {
+        font-size: 30px;
+    }
+
+    .about-me-section {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .about-me-section img {
+        margin-left: 50px;
+    }
+
+    .about-me {
+        margin-top: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .about-me b {
+        font-size: 40px;
+    }
+
+    .projects-section {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .projects-section b {
+        font-size: 40px;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-section b {
+        text-align: center;
+        margin-left: px;
+        font-size: 40px;
+        ;
+    }
+
+    .contact {
+        position: relative;
+        left: -150;
+        z-index: -1;
+    }
+    .git {
+        position: relative;
+        left: -43;
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+    .navbar-collapse {
+        position: relative;
+        left: 0;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 150px;
+        justify-content: center;
+        width: 130%;
+    }
+
+    .my-infor {
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .my-infor h1 {
+        font-size: 50px;
+    }
+
+    .my-link {
+        justify-content: center;
+    }
+
+    .tech-stock {
+        margin: 0 auto;
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .tech-stock p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .tech-stock ul li {
+        margin-right: 30px;
+    }
+
+    .tech-stock ul li i {
+        font-size: 30px;
+    }
+
+    .about-me-section {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: center;
+        width: 130%;
+    }
+
+    .about-me {
+        margin-top: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .about-me b {
+        font-size: 40px;
+    }
+
+    .projects-section {
+        justify-content: center;
+        width: 130%;
+    }
+
+    .portfolio {
+        font-size: 40px;
+    }
+
+    .projects-section h6 {
+        margin-left: 35px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .project-description b {
+        width: 130%;
+    }
+
+    .project-description p {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact-section b {
+        text-align: center;
+        margin-left: px;
+        font-size: 40px;
+        ;
+    }
+
+    .contact {
+        position: relative;
+        left: -150;
+    }
+
+    .git {
+        position: relative;
+        left: -43;
+    }
+
+    .footer {
+        width: 130%;
+    }
+
+    @media only screen and (max-width: 390px) {
+        .git {
+            position: relative;
+            left: -43;
+        }
+    }
+}
+
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: unset;
+    color: black;
+}
